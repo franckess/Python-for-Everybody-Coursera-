@@ -14,7 +14,7 @@ filename = path + fname
 try:
     fh = open(fname)
 except:
-    print 'The following file doesn''t exist:',fh
+    print 'The following file doesn''t exist:',fname
     exit()
 
 total = 0

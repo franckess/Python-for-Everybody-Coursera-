@@ -12,7 +12,7 @@ filename = path + fname
 try:
     fh = open(filename)
 except:
-    print 'The following file doesn''t exist:',fh
+    print 'The following file doesn''t exist:',fname
     exit()
 for line in fh:
     line = line.rstrip()
