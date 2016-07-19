@@ -1,2 +1,2 @@
-# Python-for-Everybody-Coursera-
+# Python for Everybody Coursera
 July 2016
