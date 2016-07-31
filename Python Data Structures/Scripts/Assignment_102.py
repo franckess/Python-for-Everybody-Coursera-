@@ -7,6 +7,8 @@
 
 name = raw_input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
+path = 'E:/Coursera/Python-for-Everybody-Coursera/Python Data Structures/'
+filename = path + name
 handle = open(name)
 
 email_d = dict()
