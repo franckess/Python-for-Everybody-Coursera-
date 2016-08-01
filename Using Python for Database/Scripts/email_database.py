@@ -1,5 +1,8 @@
 ### Assignment: Counting Organizations
 
+# This application will read the mailbox data (mbox.txt) count up the number email messages per organization 
+# (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
+
 import sqlite3
 import re
 
@@ -13,7 +16,7 @@ cur.execute('''
 CREATE TABLE Counts (org TEXT, count INTEGER)''')
 
 fname = raw_input('Enter file name: ')
-if ( len(fname) < 1 ) : fname = 'mbox-short.txt'
+if ( len(fname) < 1 ) : fname = 'mbox-short_full.txt'
 path = 'E:/Coursera/Python-for-Everybody-Coursera/Using Python for Database/Data/'
 fname = path + fname
 fh = open(fname)
