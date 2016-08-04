@@ -37,7 +37,7 @@ for key,val in counts.items():
      #by moving the commit so it runs only after the loop completes
 conn.commit()
 
-## https://www.sqlite.org/lang_select.html
+# https://www.sqlite.org/lang_select.html
 sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC'
 
 print
