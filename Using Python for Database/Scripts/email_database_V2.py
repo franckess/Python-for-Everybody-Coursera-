@@ -28,13 +28,8 @@ for line in fh:
     counts[org[0].rstrip()] = counts.get(org[0].rstrip(),0) + 1
 
 for key,val in counts.items():
-    #cur.execute('SELECT count FROM Counts WHERE org = ? ', (org, ))
-    row = cur.fetchone()
     cur.execute('''INSERT INTO Counts (org, count) 
                 VALUES ( ?, ? )''', ( key, val) )
-     #This statement commits outstanding changes to disk each 
-     #time through the loop - the program can be made faster 
-     #by moving the commit so it runs only after the loop completes
 conn.commit()
 
 # https://www.sqlite.org/lang_select.html
