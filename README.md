@@ -7,7 +7,7 @@ For more information, check out [https://www.coursera.org/specializations/python
 
 The slides related to the course can be found in [Python for Informatics: Exploring Information](http://www.pythonlearn.com/slides/)
 
-## Course Outline
+## Course Outline (with links to the actual course)
 
 1. [Programming for Everybody](www.coursera.org/learn/python)
 2. [Python Data Structures](www.coursera.org/learn/python-data)
