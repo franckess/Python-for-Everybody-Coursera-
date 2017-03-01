@@ -9,7 +9,9 @@ The slides related to the course can be found in [Python for Informatics: Explor
 
 ## Course Outline (with links to the actual course)
  [Programming for Everybody](www.coursera.org/learn/python)
+ 
  [Python Data Structures](www.coursera.org/learn/python-data)
+ 
  [Using Python to Access Web Data](www.coursera.org/learn/python-network-data)
+ 
  [Using Databases with Python](www.coursera.org/learn/python-databases)
- [Capstone: Retrieving, Processing, and Visualizing Data with Python](www.coursera.org/learn/python-capstone)
