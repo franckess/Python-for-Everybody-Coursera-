@@ -7,4 +7,4 @@ For more information, check out [https://www.coursera.org/specializations/python
 
 The slides related to the course can be found in [Python for Informatics: Exploring Information](http://www.pythonlearn.com/slides/)
  
-This is repo is where I saved my attempts for the assignments for all 4 courses.
+This is repo is where I saved my assignments for all 4 courses.
