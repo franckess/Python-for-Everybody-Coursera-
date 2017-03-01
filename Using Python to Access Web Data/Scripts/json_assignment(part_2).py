@@ -32,7 +32,7 @@ while True:
     try: js = json.loads(str(data))
     except: js = None
     if 'status' not in js or js['status'] != 'OK':
-        print '==== Failure To Retrieve ===='
+        print '==== Failed To Retrieve ===='
         print data
         continue
 
